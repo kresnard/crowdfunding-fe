@@ -1,27 +1,11 @@
 import React from 'react'
 
-const SignUp = () => {
+const SignIn = () => {
   return (
-    <div className='max-lg bg-[#3B41E3] p-8 shadow shadow-slate-300'>
-      <form className="my-10">
-      <h2 className='text-white text-2xl mb-8 font-bold'>Sign Up Account</h2>
+    <div className='h-screen bg-[#3B41E3] p-8 shadow shadow-slate-300'>
+      <form className="my-10 content-center">
+      <h2 className='text-white text-2xl mb-8 font-bold'>Sign In Account</h2>
         <div className="flex flex-col">
-          <div className="mb-5">
-            <label className="font-bold text-white">Full Name</label>
-            <input type="text"
-            className="w-full py-3 mt-1 border border-slate-200 rounded-full px-6 focus:line-clamp-non hover:shadow
-            focus:text-white focus:outline-none focus:border-[#8286FF] focus:ring-1 focus:ring-[#8286FF] focus:bg-[#4C52F8]"
-            placeholder='masukkan nama Anda'
-            />
-          </div>
-          <div className="mb-5">
-            <label className="font-bold text-white">Occupation</label>
-            <input type="text"
-            className="w-full py-3 mt-1 border border-slate-200 rounded-full px-6 focus:line-clamp-non hover:shadow
-            focus:text-white focus:outline-none focus:border-[#8286FF] focus:ring-1 focus:ring-[#8286FF] focus:bg-[#4C52F8]"
-            placeholder='masukkan pekerjaan Anda'
-            />
-          </div>
           <div className="mb-5">
             <label className="font-bold text-white">Email</label>
             <input type="text"
@@ -52,4 +36,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default SignIn
